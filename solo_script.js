@@ -21,6 +21,9 @@ for(var i = 0; i < array.length; i++){
   //console.log("first loop: " + array[i]);
  	newEl = document.createElement('li');
      //add some space between array elements
+     array[i][1] = " " + array[i][1];
+     array[i][2] = " " + array[i][2];
+     array[i][3] = " " + array[i][3];
      console.log(array[i]);
 	newText = document.createTextNode(array[i]);
 	newEl.appendChild(newText);
